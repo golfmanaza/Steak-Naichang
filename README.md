@@ -13,17 +13,17 @@ h1,h2,h3,h4,h5,h6 {
 <!-- Navbar (sit on top) -->
 <div class="w3-top" style="max-width:980px;min-width:200px letter-spacing:3px;" >
   <div class="w3-bar w3-white w3-padding w3-card-2 ">
-   <a href="https://golfmanaza.github.io/10yummyfoodinHDY/" target="_blank" class="w3-card-4 w3-xxlarge  w3-hover-text-green">10ร้านห้ามพลาดในหาดใหญ่</a>
+   <a href="https://golfmanaza.github.io/10yummyfoodinHDY/" target="_blank" class="w3-card-4 w3-xxlarge w3-hover-red  ">10ร้านห้ามพลาดในหาดใหญ่</a>
 <div class="w3-right">
-      <a href="#about" class="w3-bar-item w3-display-container w3-content w3-wide w3-button w3-card-4 w3-border w3-hover-orange">ร้าน</a>
-      <a href="#menu" class="w3-display-container w3-content w3-wide w3-bar-item w3-button w3-card-4 w3-border w3-hover-green">ข้อมูลร้าน</a>
+      <a href="#about" class="w3-bar-item w3-display-container w3-content w3-wide w3-button w3-card-4 w3-border w3-text-blue  w3-hover-orange">ร้าน</a>
+      <a href="#menu" class="w3-display-container w3-content w3-wide w3-bar-item w3-button w3-card-4 w3-border w3-text-blue w3-hover-green">ข้อมูลร้าน</a>
 	
   </div>
 </div>
 </div>
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="home.jpg"  alt="kiriko" width="1600" height="800">
+  <img class="w3-image" src="home.jpg"  alt="steak" width="1600" height="800">
   <div class="w3-display-middle w3-padding-large w3-black">
     <h1 class="w3-xxxlarge w3-animate-left w3-card-4">"สเต็กนายช่าง" </h1>
   </div>
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     </div>
 
     <div class="w3-col m6 w3-padding-large w3-card-4 ">
-      <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-hover-red ">สเต็กนายช่าง</h1><hr>
+      <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-text-green w3-hover-red ">สเต็กนายช่าง</h1><hr>
       <h5 class="w3-center">สเต็กนายช่าง อร่อยตามแบบฉบับนายช่าง</h5>
       <p class="w3-large">สเต็กอร่อยดี มีคุณภาพ ราคาไม่แพงด้วย เมนูก็มีให้เลือกหลากหลาย เนื้อชิ้นขนาดพอดีๆ ทอปปิ้งกับใบกะเพราทอดกรอบ 
 	  เสิร์ฟพร้อมซอส เฟรนซ์ฟรายด์ ขนมปัง และสลัด เรียกได้ว่าจัดเต็มสมราคา 
@@ -121,7 +121,12 @@ h1,h2,h3,h4,h5,h6 {
   </div>
   
 </div>
-
+<div class="w3-display-container mySlides"> 
+  <img src="naichang7.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+  </div>
+  
+</div>
 <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
